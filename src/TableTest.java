@@ -1,16 +1,7 @@
 public class TableTest {
     public static void main(String[] args) {
-        Table table1 = new Table();
-        table1.shape = "okrągły";
-        table1.material = "drewno";
-        table1.numberOfLegs = 4;
-        table1.tableFor = 8;
-
-        Table table2 = new Table();
-        table2.shape = "owalny";
-        table2.material = "tworzywo";
-        table2.numberOfLegs = 4;
-        table2.tableFor = 6;
+        Table table1 = new Table("okrągły", "drewno", 4, 8);
+        Table table2 = new Table("owalny", "tworzywo", 4, 6);
 
         System.out.println("Rodzaje stołów");
         System.out.println("Pierwszy:");
